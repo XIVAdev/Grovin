@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..team.models import Portfolio,Team
+from team.models import Portfolio,Team
 
 
 class PortfolioSerializer(serializers.ModelSerializer):

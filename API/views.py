@@ -2,7 +2,7 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializer import PortfolioSerializer,TeamSerializer
-from ..team.models import Portfolio,Team
+from team.models import Portfolio,Team
 from rest_framework.viewsets import ModelViewSet
 
 
